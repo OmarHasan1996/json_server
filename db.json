@@ -74,12 +74,6 @@
             "decoration": {
               "hintText": "",
               "filled": true,
-              "icon": {
-                "type": "icon",
-                "iconType": "cupertino",
-                "icon": "phone_solid",
-                "size": 24
-              },
               "hintStyle": {
                 "color": "#797979"
               },
@@ -100,7 +94,7 @@
               "data": "Rest Device"
             },
             "style": {
-              "backgroundColor": "#4D00E9",
+              "backgroundColor": "#000000",
               "padding": {
                 "top": 8,
                 "left": 12,
