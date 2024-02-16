@@ -28,6 +28,23 @@
             "height": 24
           },
           {
+            "type": "elevatedButton",
+            "child": {
+              "type": "text",
+              "data": "Z A T C A"
+            },
+            "style": {
+              "backgroundColor": "#000000",
+              "padding": {
+                "top": 8,
+                "left": 12,
+                "right": 12,
+                "bottom": 8
+              }
+            },
+            "onPressed": {}
+          },
+          {
             "type": "textField",
             "maxLines": 1,
             "keyboardType": "text",
@@ -86,23 +103,6 @@
           {
             "type": "sizedBox",
             "height": 24
-          },
-          {
-            "type": "elevatedButton",
-            "child": {
-              "type": "text",
-              "data": "Rest Device"
-            },
-            "style": {
-              "backgroundColor": "#000000",
-              "padding": {
-                "top": 8,
-                "left": 12,
-                "right": 12,
-                "bottom": 8
-              }
-            },
-            "onPressed": {}
           }
         ]
       }
