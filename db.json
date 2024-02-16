@@ -1,0 +1,111 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "body": {
+    "type": "scrollView",
+    "child": {
+      "type": "container",
+      "padding": {
+        "left": 12,
+        "right": 12,
+        "top": 12,
+        "bottom": 12
+      },
+      "child": {
+        "type": "column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": false,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "hintText": "",
+              "filled": true,
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Site Number*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": false,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "hintText": "",
+              "filled": true,
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Pump Number*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "elevatedButton",
+            "child": {
+              "type": "text",
+              "data": "Rest Device"
+            },
+            "style": {
+              "backgroundColor": "#000000",
+              "padding": {
+                "top": 8,
+                "left": 12,
+                "right": 12,
+                "bottom": 8
+              }
+            },
+            "onPressed": {}
+          }
+        ]
+      }
+    }
+  }
+}
